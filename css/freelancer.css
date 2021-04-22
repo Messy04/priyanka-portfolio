@@ -386,13 +386,15 @@ footer .footer-below {
 }
 
 .scroll-top .btn {
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
+    width: 40px;
+    height: 40px;
     font-size: 20px;
-    line-height: 28px;
 }
-
+.scroll-top .btn-primary {
+    color: #ffffff;
+    background-color: #8bc34a;
+    border-color: #8bc34a;
+}
 .scroll-top .btn:focus {
     outline: 0;
 }
@@ -507,4 +509,27 @@ footer .footer-below {
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
     background-color:transparent;
+}
+.navbar-default .navbar-nav>li>a:focus {
+    color: #4396ff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
+    color: #4396ff;
+}
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #4396ff;
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+    border-color: #3e93ff;
+}
+.navbar-toggle {
+    background-color: #3e93ff;
+    border: 1px solid #3e93ff;
+}
+.scroll-top i{
+    position: absolute;
+    left: 12px;
+    top: 8px;
 }
